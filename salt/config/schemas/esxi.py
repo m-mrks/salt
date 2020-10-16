@@ -215,3 +215,5 @@ class EsxiProxySchema(Schema):
     principal = StringItem()
     protocol = StringItem()
     port = IntegerItem(minimum=1)
+    credstore = StringItem()
+    thumbprint = StringItem()
